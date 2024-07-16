@@ -1,9 +1,25 @@
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://archie202.github.io/AI_Assistant/",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+    // other dependencies...
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build", // optional: if you have a predeploy step
+    "deploy": "gh-pages -d build", // deploy script using gh-pages
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    // other scripts...
+  },
+  "eslintConfig": {
+    // eslint config...
+  },
+  // other configuration...
 }
-
